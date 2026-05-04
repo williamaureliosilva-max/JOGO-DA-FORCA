@@ -25,4 +25,4 @@ def executar():
         print(f"\nPerdeste! A palavra era: {palavra_secreta}")
 
 if __name__ == "__main__":
-    executar()
+    executar() 
