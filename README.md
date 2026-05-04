@@ -25,6 +25,7 @@ Este projeto é uma implementação em Python do jogo da forca para demonstrar l
 1. **Usabilidade:** A interface deve ser simples e clara via consola de texto.
 2. **Robustez:** O sistema deve validar entradas inválidas sem encerrar o programa.
 3. **Compatibilidade:** O código deve ser executável em ambiente Python 3.
+## Fluxograma do Jogo 
 ```mermaid
  graph TD
     A([Início]) --> B[Escolher Palavra e Definir 6 Tentativas]
