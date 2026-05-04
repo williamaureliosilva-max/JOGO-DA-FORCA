@@ -1,3 +1,4 @@
+# Núcleo funcional do jogo da forca
 import random
 
 ESTADOS_FORCA = [
