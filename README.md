@@ -25,3 +25,19 @@ Este projeto é uma implementação em Python do jogo da forca para demonstrar l
 1. **Usabilidade:** A interface deve ser simples e clara via consola de texto.
 2. **Robustez:** O sistema deve validar entradas inválidas sem encerrar o programa.
 3. **Compatibilidade:** O código deve ser executável em ambiente Python 3.
+```mermaid
+ graph TD
+    A([Início]) --> B[Escolher Palavra e Definir 6 Tentativas]
+    B --> C{Palavra completa ou <br>tentativas == 0?}
+    C -- Sim --> D{Ganhou?}
+    D -- Sim --> E([Vitória])
+    D -- Não --> F([Derrota])
+    C -- Não --> G[/Pedir Letra/]
+    G --> H{Letra na Palavra?}
+    H -- Sim --> I[Revelar Letra]
+    H -- Não --> J[Remover 1 Tentativa]
+    I --> C
+    J --> C
+```
+
+
