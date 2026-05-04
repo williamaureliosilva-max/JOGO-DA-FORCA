@@ -27,4 +27,4 @@ def processar_chute(chute, palavra_secreta, letras_descobertas, tentativas, letr
                 letras_descobertas[i] = chute
         return tentativas, True, "Boa! A letra existe."
     else:
-        return tentativas - 1, False, "Errado! Perdeste uma vida."
+        return tentativas - 1, False, "Errado! Perdeste uma vida." 
