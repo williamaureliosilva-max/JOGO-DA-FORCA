@@ -2,7 +2,6 @@ from jogo import ESTADOS_FORCA, inicializar_jogo, processar_chute
 
 def executar():
     palavra_secreta, letras_descobertas, tentativas, letras_tentadas = inicializar_jogo()
-    
     print("--- JOGO DA FORCA (ROBUSTO) ---")
     
     while tentativas > 0 and "_" in letras_descobertas:
@@ -13,7 +12,6 @@ def executar():
         try:
             chute = input("\nDigite uma letra: ").upper().strip()
             
-            # Testes de robustez (Tratamento de erros)
             if not chute:
                 raise ValueError("O campo não pode estar vazio!")
             if len(chute) > 1:
@@ -21,7 +19,6 @@ def executar():
             if not chute.isalpha():
                 raise ValueError("Introduz apenas letras (A-Z)!")
 
-            # Se passar nos testes acima, o jogo processa a letra
             tentativas, acerto, msg = processar_chute(chute, palavra_secreta, letras_descobertas, tentativas, letras_tentadas)
             print(msg)
             
