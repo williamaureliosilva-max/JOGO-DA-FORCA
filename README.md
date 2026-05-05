@@ -40,5 +40,33 @@ Este projeto é uma implementação em Python do jogo da forca para demonstrar l
     I --> C
     J --> C
 ```
+## Documentação do Utilizador
+
+### Descrição do Jogo
+O Jogo da Forca é um clássico desafio de palavras onde o utilizador tenta adivinhar uma palavra oculta antes que o boneco seja completamente desenhado na forca.
+
+### Regras
+1. Tens 6 tentativas para errar.
+2. Letras repetidas não contam como erro.
+3. Caracteres especiais ou números não são aceites (o sistema possui tratamento de erros).
+4. Ganhas se revelares a palavra completa; perdes se o boneco for finalizado.
+
+### Instruções de Execução
+Para correr o jogo no teu computador:
+1. Garante que tens o **Python 3** instalado.
+2. Faz o download dos ficheiros `main.py` e `jogo.py` para a mesma pasta.
+3. Abre o terminal/consola nessa pasta.
+4. Executa o comando: `python3 main.py`
+
+### Exemplo de Utilização
+```text
+--- JOGO DA FORCA (ROBUSTO) ---
+Palavra: _ _ _ _ _ _
+Tentativas restantes: 6
+Digite uma letra: A
+Boa! A letra existe.
+Palavra: _ A _ _ _ A
+```
+
 
 
