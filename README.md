@@ -1,4 +1,4 @@
-# Projeto: Jogo da Forca
+# Projeto: Jogo da Forca.
 
 ## Formulação do Problema
 Este projeto é uma implementação em Python do jogo da forca para demonstrar lógica de programação e manipulação de strings.
