@@ -24,6 +24,7 @@ def executar():
             
         except ValueError as erro:
             print(f">> ERRO DETETADO: {erro}")
+            input("Pressiona Enter para continuar...")
 
     if "_" not in letras_descobertas:
         print(f"\nPARABÉNS! Ganhaste. A palavra era: {palavra_secreta}")
